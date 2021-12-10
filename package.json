@@ -1,0 +1,18 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "realtime chat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "wajdi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.8",
+    "socket.io": "^3.0.4"
+  }
+}
